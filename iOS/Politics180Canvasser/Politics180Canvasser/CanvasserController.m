@@ -7,7 +7,7 @@
 //
 
 #import "CanvasserController.h"
-#import "RKJSONSerialization.h"
+//#import "RKJSONSerialization.h"
 
 @implementation CanvasserController
 
@@ -61,9 +61,16 @@
 
 - (IBAction)invokeWebService:(id)sender 
 {
+    NSString* errorStr;
     client = [RKClient clientWithBaseURL:@"http://localhost:8080"];
-    RKJSONSerialization* rs = [[RKJSONSerialization alloc] init:@""]; 
-    [client post:@"/ping" params:rs delegate:self];    
+    NSDictionary* propertyList = [NSDictionary dictionaryWithObjectsAndKeys:
+                                  @"Javier", @"FirstNameKey",
+                                  @"Alegria", @"LastNameKey", nil];
+    NSPropertyListSerialization* dataRep = [NSPropertyListSerialization dataFromPropertyList: propertyList
+                                                                                     format: NSPropertyListXMLFormat_v1_0
+                                                                           errorDescription: &errorStr];
+    //RKJSONSerialization* rs = [[RKJSONSerialization alloc] init:@""]; 
+    [client post:@"/test/xmlmarshalling" params:dataRep delegate:self];    
 }
 
 - (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response 

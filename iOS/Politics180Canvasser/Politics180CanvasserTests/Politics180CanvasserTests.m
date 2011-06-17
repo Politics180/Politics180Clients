@@ -13,6 +13,7 @@
 - (void)setUp
 {
     [super setUp];
+    controller = [[CanvasserController alloc] init];
     
     // Set-up code here.
 }
@@ -26,7 +27,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Politics180CanvasserTests");
+    [controller invokeWebService:self];
 }
 
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "CanvasserController.h"
 
 @interface Politics180CanvasserTests : SenTestCase
+{
+    CanvasserController* controller;
+}
 
 @end

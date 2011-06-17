@@ -5,6 +5,9 @@
       location = "group:Politics180Canvasser/Politics180Canvasser.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../common/geospatial/geospatial.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RestKit/RestKit.xcodeproj">
    </FileRef>
 </Workspace>

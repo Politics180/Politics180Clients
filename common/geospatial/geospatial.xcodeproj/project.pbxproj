@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF1A50A13ABE9E100695258 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A50913ABE9E100695258 /* Cocoa.framework */; };
+		FBF1A51413ABE9E100695258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A51213ABE9E100695258 /* InfoPlist.strings */; };
+		FBF1A51D13ABE9E200695258 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A51C13ABE9E200695258 /* SenTestingKit.framework */; };
+		FBF1A51E13ABE9E200695258 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A50913ABE9E100695258 /* Cocoa.framework */; };
+		FBF1A52113ABE9E200695258 /* geospatial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A50613ABE9E100695258 /* geospatial.framework */; };
+		FBF1A52713ABE9E200695258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A52513ABE9E200695258 /* InfoPlist.strings */; };
+		FBF1A52913ABE9E300695258 /* geospatialTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A52813ABE9E300695258 /* geospatialTests.h */; };
+		FBF1A52B13ABE9E300695258 /* geospatialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1A52A13ABE9E300695258 /* geospatialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF1A51F13ABE9E200695258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF1A4FC13ABE9E100695258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF1A50513ABE9E100695258;
+			remoteInfo = geospatial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBF1A50613ABE9E100695258 /* geospatial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = geospatial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1A50913ABE9E100695258 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FBF1A50C13ABE9E100695258 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FBF1A50D13ABE9E100695258 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBF1A50E13ABE9E100695258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF1A51113ABE9E100695258 /* geospatial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geospatial-Info.plist"; sourceTree = "<group>"; };
+		FBF1A51313ABE9E100695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF1A51513ABE9E100695258 /* geospatial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "geospatial-Prefix.pch"; sourceTree = "<group>"; };
+		FBF1A51B13ABE9E200695258 /* geospatialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geospatialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1A51C13ABE9E200695258 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBF1A52413ABE9E200695258 /* geospatialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geospatialTests-Info.plist"; sourceTree = "<group>"; };
+		FBF1A52613ABE9E200695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF1A52813ABE9E300695258 /* geospatialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geospatialTests.h; sourceTree = "<group>"; };
+		FBF1A52A13ABE9E300695258 /* geospatialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geospatialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF1A50213ABE9E100695258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A50A13ABE9E100695258 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A51713ABE9E200695258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A51D13ABE9E200695258 /* SenTestingKit.framework in Frameworks */,
+				FBF1A51E13ABE9E200695258 /* Cocoa.framework in Frameworks */,
+				FBF1A52113ABE9E200695258 /* geospatial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF1A4FA13ABE9E100695258 = {
+			isa = PBXGroup;
+			children = (
+				FBF1A50F13ABE9E100695258 /* geospatial */,
+				FBF1A52213ABE9E200695258 /* geospatialTests */,
+				FBF1A50813ABE9E100695258 /* Frameworks */,
+				FBF1A50713ABE9E100695258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF1A50713ABE9E100695258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A50613ABE9E100695258 /* geospatial.framework */,
+				FBF1A51B13ABE9E200695258 /* geospatialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF1A50813ABE9E100695258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A50913ABE9E100695258 /* Cocoa.framework */,
+				FBF1A51C13ABE9E200695258 /* SenTestingKit.framework */,
+				FBF1A50B13ABE9E100695258 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF1A50B13ABE9E100695258 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A50C13ABE9E100695258 /* AppKit.framework */,
+				FBF1A50D13ABE9E100695258 /* CoreData.framework */,
+				FBF1A50E13ABE9E100695258 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FBF1A50F13ABE9E100695258 /* geospatial */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A51013ABE9E100695258 /* Supporting Files */,
+			);
+			path = geospatial;
+			sourceTree = "<group>";
+		};
+		FBF1A51013ABE9E100695258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A51113ABE9E100695258 /* geospatial-Info.plist */,
+				FBF1A51213ABE9E100695258 /* InfoPlist.strings */,
+				FBF1A51513ABE9E100695258 /* geospatial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF1A52213ABE9E200695258 /* geospatialTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A52813ABE9E300695258 /* geospatialTests.h */,
+				FBF1A52A13ABE9E300695258 /* geospatialTests.m */,
+				FBF1A52313ABE9E200695258 /* Supporting Files */,
+			);
+			path = geospatialTests;
+			sourceTree = "<group>";
+		};
+		FBF1A52313ABE9E200695258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A52413ABE9E200695258 /* geospatialTests-Info.plist */,
+				FBF1A52513ABE9E200695258 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FBF1A50313ABE9E100695258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FBF1A50513ABE9E100695258 /* geospatial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1A52E13ABE9E300695258 /* Build configuration list for PBXNativeTarget "geospatial" */;
+			buildPhases = (
+				FBF1A50113ABE9E100695258 /* Sources */,
+				FBF1A50213ABE9E100695258 /* Frameworks */,
+				FBF1A50313ABE9E100695258 /* Headers */,
+				FBF1A50413ABE9E100695258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geospatial;
+			productName = geospatial;
+			productReference = FBF1A50613ABE9E100695258 /* geospatial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBF1A51A13ABE9E200695258 /* geospatialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1A53113ABE9E300695258 /* Build configuration list for PBXNativeTarget "geospatialTests" */;
+			buildPhases = (
+				FBF1A51613ABE9E200695258 /* Sources */,
+				FBF1A51713ABE9E200695258 /* Frameworks */,
+				FBF1A51813ABE9E200695258 /* Resources */,
+				FBF1A51913ABE9E200695258 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF1A52013ABE9E200695258 /* PBXTargetDependency */,
+			);
+			name = geospatialTests;
+			productName = geospatialTests;
+			productReference = FBF1A51B13ABE9E200695258 /* geospatialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF1A4FC13ABE9E100695258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "White Ram Energy, LLC";
+			};
+			buildConfigurationList = FBF1A4FF13ABE9E100695258 /* Build configuration list for PBXProject "geospatial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF1A4FA13ABE9E100695258;
+			productRefGroup = FBF1A50713ABE9E100695258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF1A50513ABE9E100695258 /* geospatial */,
+				FBF1A51A13ABE9E200695258 /* geospatialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF1A50413ABE9E100695258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A51413ABE9E100695258 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A51813ABE9E200695258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A52713ABE9E200695258 /* InfoPlist.strings in Resources */,
+				FBF1A52913ABE9E300695258 /* geospatialTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBF1A51913ABE9E200695258 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF1A50113ABE9E100695258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A51613ABE9E200695258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A52B13ABE9E300695258 /* geospatialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF1A52013ABE9E200695258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF1A50513ABE9E100695258 /* geospatial */;
+			targetProxy = FBF1A51F13ABE9E200695258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF1A51213ABE9E100695258 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A51313ABE9E100695258 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBF1A52513ABE9E200695258 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A52613ABE9E200695258 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF1A52C13ABE9E300695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBF1A52D13ABE9E300695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBF1A52F13ABE9E300695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geospatial/geospatial-Prefix.pch";
+				INFOPLIST_FILE = "geospatial/geospatial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FBF1A53013ABE9E300695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geospatial/geospatial-Prefix.pch";
+				INFOPLIST_FILE = "geospatial/geospatial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		FBF1A53213ABE9E300695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geospatial/geospatial-Prefix.pch";
+				INFOPLIST_FILE = "geospatialTests/geospatialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FBF1A53313ABE9E300695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geospatial/geospatial-Prefix.pch";
+				INFOPLIST_FILE = "geospatialTests/geospatialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF1A4FF13ABE9E100695258 /* Build configuration list for PBXProject "geospatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A52C13ABE9E300695258 /* Debug */,
+				FBF1A52D13ABE9E300695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1A52E13ABE9E300695258 /* Build configuration list for PBXNativeTarget "geospatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A52F13ABE9E300695258 /* Debug */,
+				FBF1A53013ABE9E300695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBF1A53113ABE9E300695258 /* Build configuration list for PBXNativeTarget "geospatialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A53213ABE9E300695258 /* Debug */,
+				FBF1A53313ABE9E300695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF1A4FC13ABE9E100695258 /* Project object */;
+}
