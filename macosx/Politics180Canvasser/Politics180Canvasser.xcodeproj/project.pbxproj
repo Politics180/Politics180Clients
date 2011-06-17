@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF1A4B313ABCF9100695258 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A4B213ABCF9100695258 /* Cocoa.framework */; };
+		FBF1A4BD13ABCF9100695258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A4BB13ABCF9100695258 /* InfoPlist.strings */; };
+		FBF1A4BF13ABCF9100695258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1A4BE13ABCF9100695258 /* main.m */; };
+		FBF1A4C313ABCF9100695258 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A4C113ABCF9100695258 /* Credits.rtf */; };
+		FBF1A4C613ABCF9100695258 /* Politics180CanvasserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1A4C513ABCF9100695258 /* Politics180CanvasserAppDelegate.m */; };
+		FBF1A4C913ABCF9100695258 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A4C713ABCF9100695258 /* MainMenu.xib */; };
+		FBF1A4CC13ABCF9100695258 /* Politics180Canvasser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBF1A4CA13ABCF9100695258 /* Politics180Canvasser.xcdatamodeld */; };
+		FBF1A4D413ABCF9200695258 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A4D313ABCF9200695258 /* SenTestingKit.framework */; };
+		FBF1A4D513ABCF9200695258 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1A4B213ABCF9100695258 /* Cocoa.framework */; };
+		FBF1A4DD13ABCF9200695258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A4DB13ABCF9200695258 /* InfoPlist.strings */; };
+		FBF1A4DF13ABCF9200695258 /* Politics180CanvasserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FBF1A4DE13ABCF9200695258 /* Politics180CanvasserTests.h */; };
+		FBF1A4E113ABCF9200695258 /* Politics180CanvasserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1A4E013ABCF9200695258 /* Politics180CanvasserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF1A4D613ABCF9200695258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF1A4A513ABCF9000695258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF1A4AD13ABCF9100695258;
+			remoteInfo = Politics180Canvasser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBF1A4AE13ABCF9100695258 /* Politics180Canvasser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politics180Canvasser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1A4B213ABCF9100695258 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FBF1A4B513ABCF9100695258 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FBF1A4B613ABCF9100695258 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBF1A4B713ABCF9100695258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF1A4BA13ABCF9100695258 /* Politics180Canvasser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Politics180Canvasser-Info.plist"; sourceTree = "<group>"; };
+		FBF1A4BC13ABCF9100695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF1A4BE13ABCF9100695258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF1A4C013ABCF9100695258 /* Politics180Canvasser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Politics180Canvasser-Prefix.pch"; sourceTree = "<group>"; };
+		FBF1A4C213ABCF9100695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FBF1A4C413ABCF9100695258 /* Politics180CanvasserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Politics180CanvasserAppDelegate.h; sourceTree = "<group>"; };
+		FBF1A4C513ABCF9100695258 /* Politics180CanvasserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Politics180CanvasserAppDelegate.m; sourceTree = "<group>"; };
+		FBF1A4C813ABCF9100695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FBF1A4CB13ABCF9100695258 /* Politics180Canvasser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Politics180Canvasser.xcdatamodel; sourceTree = "<group>"; };
+		FBF1A4D213ABCF9200695258 /* Politics180CanvasserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Politics180CanvasserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1A4D313ABCF9200695258 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBF1A4DA13ABCF9200695258 /* Politics180CanvasserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Politics180CanvasserTests-Info.plist"; sourceTree = "<group>"; };
+		FBF1A4DC13ABCF9200695258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF1A4DE13ABCF9200695258 /* Politics180CanvasserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Politics180CanvasserTests.h; sourceTree = "<group>"; };
+		FBF1A4E013ABCF9200695258 /* Politics180CanvasserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Politics180CanvasserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF1A4AB13ABCF9100695258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4B313ABCF9100695258 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A4CE13ABCF9200695258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4D413ABCF9200695258 /* SenTestingKit.framework in Frameworks */,
+				FBF1A4D513ABCF9200695258 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF1A4A313ABCF9000695258 = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4B813ABCF9100695258 /* Politics180Canvasser */,
+				FBF1A4D813ABCF9200695258 /* Politics180CanvasserTests */,
+				FBF1A4B113ABCF9100695258 /* Frameworks */,
+				FBF1A4AF13ABCF9100695258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF1A4AF13ABCF9100695258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4AE13ABCF9100695258 /* Politics180Canvasser.app */,
+				FBF1A4D213ABCF9200695258 /* Politics180CanvasserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF1A4B113ABCF9100695258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4B213ABCF9100695258 /* Cocoa.framework */,
+				FBF1A4D313ABCF9200695258 /* SenTestingKit.framework */,
+				FBF1A4B413ABCF9100695258 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF1A4B413ABCF9100695258 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4B513ABCF9100695258 /* AppKit.framework */,
+				FBF1A4B613ABCF9100695258 /* CoreData.framework */,
+				FBF1A4B713ABCF9100695258 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FBF1A4B813ABCF9100695258 /* Politics180Canvasser */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4C413ABCF9100695258 /* Politics180CanvasserAppDelegate.h */,
+				FBF1A4C513ABCF9100695258 /* Politics180CanvasserAppDelegate.m */,
+				FBF1A4C713ABCF9100695258 /* MainMenu.xib */,
+				FBF1A4CA13ABCF9100695258 /* Politics180Canvasser.xcdatamodeld */,
+				FBF1A4B913ABCF9100695258 /* Supporting Files */,
+			);
+			path = Politics180Canvasser;
+			sourceTree = "<group>";
+		};
+		FBF1A4B913ABCF9100695258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4BA13ABCF9100695258 /* Politics180Canvasser-Info.plist */,
+				FBF1A4BB13ABCF9100695258 /* InfoPlist.strings */,
+				FBF1A4BE13ABCF9100695258 /* main.m */,
+				FBF1A4C013ABCF9100695258 /* Politics180Canvasser-Prefix.pch */,
+				FBF1A4C113ABCF9100695258 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF1A4D813ABCF9200695258 /* Politics180CanvasserTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4DE13ABCF9200695258 /* Politics180CanvasserTests.h */,
+				FBF1A4E013ABCF9200695258 /* Politics180CanvasserTests.m */,
+				FBF1A4D913ABCF9200695258 /* Supporting Files */,
+			);
+			path = Politics180CanvasserTests;
+			sourceTree = "<group>";
+		};
+		FBF1A4D913ABCF9200695258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1A4DA13ABCF9200695258 /* Politics180CanvasserTests-Info.plist */,
+				FBF1A4DB13ABCF9200695258 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF1A4AD13ABCF9100695258 /* Politics180Canvasser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1A4E413ABCF9200695258 /* Build configuration list for PBXNativeTarget "Politics180Canvasser" */;
+			buildPhases = (
+				FBF1A4AA13ABCF9100695258 /* Sources */,
+				FBF1A4AB13ABCF9100695258 /* Frameworks */,
+				FBF1A4AC13ABCF9100695258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Politics180Canvasser;
+			productName = Politics180Canvasser;
+			productReference = FBF1A4AE13ABCF9100695258 /* Politics180Canvasser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF1A4D113ABCF9200695258 /* Politics180CanvasserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1A4E713ABCF9200695258 /* Build configuration list for PBXNativeTarget "Politics180CanvasserTests" */;
+			buildPhases = (
+				FBF1A4CD13ABCF9200695258 /* Sources */,
+				FBF1A4CE13ABCF9200695258 /* Frameworks */,
+				FBF1A4CF13ABCF9200695258 /* Resources */,
+				FBF1A4D013ABCF9200695258 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF1A4D713ABCF9200695258 /* PBXTargetDependency */,
+			);
+			name = Politics180CanvasserTests;
+			productName = Politics180CanvasserTests;
+			productReference = FBF1A4D213ABCF9200695258 /* Politics180CanvasserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF1A4A513ABCF9000695258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "White Ram Energy, LLC";
+			};
+			buildConfigurationList = FBF1A4A813ABCF9000695258 /* Build configuration list for PBXProject "Politics180Canvasser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF1A4A313ABCF9000695258;
+			productRefGroup = FBF1A4AF13ABCF9100695258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF1A4AD13ABCF9100695258 /* Politics180Canvasser */,
+				FBF1A4D113ABCF9200695258 /* Politics180CanvasserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF1A4AC13ABCF9100695258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4BD13ABCF9100695258 /* InfoPlist.strings in Resources */,
+				FBF1A4C313ABCF9100695258 /* Credits.rtf in Resources */,
+				FBF1A4C913ABCF9100695258 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A4CF13ABCF9200695258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4DD13ABCF9200695258 /* InfoPlist.strings in Resources */,
+				FBF1A4DF13ABCF9200695258 /* Politics180CanvasserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBF1A4D013ABCF9200695258 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF1A4AA13ABCF9100695258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4BF13ABCF9100695258 /* main.m in Sources */,
+				FBF1A4C613ABCF9100695258 /* Politics180CanvasserAppDelegate.m in Sources */,
+				FBF1A4CC13ABCF9100695258 /* Politics180Canvasser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1A4CD13ABCF9200695258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1A4E113ABCF9200695258 /* Politics180CanvasserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF1A4D713ABCF9200695258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF1A4AD13ABCF9100695258 /* Politics180Canvasser */;
+			targetProxy = FBF1A4D613ABCF9200695258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF1A4BB13ABCF9100695258 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A4BC13ABCF9100695258 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBF1A4C113ABCF9100695258 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A4C213ABCF9100695258 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FBF1A4C713ABCF9100695258 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A4C813ABCF9100695258 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FBF1A4DB13ABCF9200695258 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1A4DC13ABCF9200695258 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF1A4E213ABCF9200695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBF1A4E313ABCF9200695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBF1A4E513ABCF9200695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Politics180Canvasser/Politics180Canvasser-Prefix.pch";
+				INFOPLIST_FILE = "Politics180Canvasser/Politics180Canvasser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBF1A4E613ABCF9200695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Politics180Canvasser/Politics180Canvasser-Prefix.pch";
+				INFOPLIST_FILE = "Politics180Canvasser/Politics180Canvasser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBF1A4E813ABCF9200695258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Politics180Canvasser.app/Contents/MacOS/Politics180Canvasser";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Politics180Canvasser/Politics180Canvasser-Prefix.pch";
+				INFOPLIST_FILE = "Politics180CanvasserTests/Politics180CanvasserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FBF1A4E913ABCF9200695258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Politics180Canvasser.app/Contents/MacOS/Politics180Canvasser";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Politics180Canvasser/Politics180Canvasser-Prefix.pch";
+				INFOPLIST_FILE = "Politics180CanvasserTests/Politics180CanvasserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF1A4A813ABCF9000695258 /* Build configuration list for PBXProject "Politics180Canvasser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A4E213ABCF9200695258 /* Debug */,
+				FBF1A4E313ABCF9200695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1A4E413ABCF9200695258 /* Build configuration list for PBXNativeTarget "Politics180Canvasser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A4E513ABCF9200695258 /* Debug */,
+				FBF1A4E613ABCF9200695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBF1A4E713ABCF9200695258 /* Build configuration list for PBXNativeTarget "Politics180CanvasserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1A4E813ABCF9200695258 /* Debug */,
+				FBF1A4E913ABCF9200695258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBF1A4CA13ABCF9100695258 /* Politics180Canvasser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBF1A4CB13ABCF9100695258 /* Politics180Canvasser.xcdatamodel */,
+			);
+			currentVersion = FBF1A4CB13ABCF9100695258 /* Politics180Canvasser.xcdatamodel */;
+			path = Politics180Canvasser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBF1A4A513ABCF9000695258 /* Project object */;
+}

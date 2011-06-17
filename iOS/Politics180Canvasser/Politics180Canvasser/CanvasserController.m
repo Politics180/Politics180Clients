@@ -7,6 +7,7 @@
 //
 
 #import "CanvasserController.h"
+#import "RKJSONSerialization.h"
 
 @implementation CanvasserController
 
@@ -61,7 +62,8 @@
 - (IBAction)invokeWebService:(id)sender 
 {
     client = [RKClient clientWithBaseURL:@"http://localhost:8080"];
-    [client get:@"/ping" delegate:self];    
+    RKJSONSerialization* rs = [[RKJSONSerialization alloc] init:@""]; 
+    [client post:@"/ping" params:rs delegate:self];    
 }
 
 - (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response 
