@@ -63,7 +63,7 @@
         NSURLCredential *newCredential;
         newCredential = [NSURLCredential credentialWithUser:[NSString stringWithFormat:@"%@", _request.username]
                                                    password:[NSString stringWithFormat:@"%@", _request.password]
-                                                persistence:RKNetworkGetGlobalCredentialPersistence()];
+                                                persistence:RKNetGetGlobCredPersistence()];
         [[challenge sender] useCredential:newCredential
                forAuthenticationChallenge:challenge];
     } else {

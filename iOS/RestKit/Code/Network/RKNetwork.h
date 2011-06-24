@@ -12,7 +12,7 @@
  * Returns the global value for credential persistence to use during HTTP AUTH
  * Defaults to NSURLCredentialPersistenceForSession
  */
-NSURLCredentialPersistence RKNetworkGetGlobalCredentialPersistence();
+NSURLCredentialPersistence RKNetGetGlobCredPersistence();
 
 /**
  * Set the global value for credential persistence to use during HTTP AUTH

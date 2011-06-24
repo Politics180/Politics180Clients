@@ -66,9 +66,10 @@
     NSDictionary* propertyList = [NSDictionary dictionaryWithObjectsAndKeys:
                                   @"Javier", @"FirstNameKey",
                                   @"Alegria", @"LastNameKey", nil];
-    NSObject<RKRequestSerializable>* dataRep = [NSPropertyListSerialization dataFromPropertyList: propertyList
-                                                                                          format: NSPropertyListXMLFormat_v1_0
-                                                                                errorDescription: &errorStr];
+    NSObject<RKRequestSerializable>* dataRep = (NSObject<RKRequestSerializable>*)
+    [NSPropertyListSerialization dataFromPropertyList: propertyList
+                                               format: NSPropertyListXMLFormat_v1_0
+                                     errorDescription: &errorStr];
     //RKJSONSerialization* rs = [[RKJSONSerialization alloc] init:@""]; 
     [client post:@"/test/xmlmarshalling" params:dataRep delegate:self];    
 }
