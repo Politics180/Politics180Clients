@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Politics180Canvasser' target in the 'Politics180Canvasser' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

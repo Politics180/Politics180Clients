@@ -1,5 +1,4 @@
 *.a
-*.pch
 */Examples/*
 /iOS/RestKit/Examples/RKCatalog/Examples/
 /iOS/RestKit/Examples/RKDiscussionBoardExample/discussion_board_backend/app/
