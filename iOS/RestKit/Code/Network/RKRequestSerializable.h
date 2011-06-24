@@ -11,6 +11,8 @@
  * for transmission over a REST request. Suitable serializations are x-www-form-urlencoded and
  * multipart/form-data.
  */
+#import <Foundation/Foundation.h>
+
 @protocol RKRequestSerializable
 
 /**
