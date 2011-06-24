@@ -8,6 +8,7 @@
 
 #import "RKNetwork.h"
 
+
 // Global credential persistence value.
 static NSURLCredentialPersistence gCredentialPersistence = NSURLCredentialPersistenceForSession;
 
